@@ -1,0 +1,59 @@
+
+
+.header_outer_container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 10vh;
+  color: white;
+  transition: all 0.5s ease-in;
+ 
+  z-index: 1;
+  background-color: transparent;
+   background-color: black
+}
+
+.nav_black {
+  background-color: rgb(20, 20, 20);
+}
+
+ .header_container {
+  width: 90%;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+   height: 10vh; 
+   padding: 0 40px;           /* space left/right inside header */
+  height: 60px;
+
+
+  color: white;
+  transition: all 0.5s ease-in;
+  z-index: 1;  
+    /* background-color: red;  */
+ } 
+
+.header_left ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;                 /* spacing between items */
+  list-style: none;          /* remove bullets */
+   margin: 0;
+  padding: 0;
+} 
+
+
+
+
+
+
+.header_right {
+  display: flex;            /* put icons side by side */
+  align-items: center;      /* center vertically */
+  gap: 15px;                /* spacing between icons */
+  color: white;             /* Netflix-style */
+  cursor: pointer;
+   display: inline-flex; 
+}
